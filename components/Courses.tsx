@@ -5,7 +5,7 @@ import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
 
 const Courses = () => {
   return (
-    <div className='py-20' id='projects'>
+    <div className='py-20' id='courses'>
       <h1 className='heading'>
       Completed and Ongoing 
         <span className='text-purple'> Education </span>
