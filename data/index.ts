@@ -185,29 +185,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Perseverance",
+    desc: "Approach challenges with determination and persistence, always pushing forward to achieve my goals even when faced with setbacks.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Communication and Teamwork",
+    desc: "My strong communication skills enable me to articulate ideas clearly and collaborate effectively within diverse teams, fostering a positive and productive work environment.",
+    className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Initiative",
+    desc: "Take initiative by proactively identifying opportunities and taking decisive action to contribute to projects and team objectives..",
+    className: "md:col-span-2", 
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Problem solving",
+    desc: "I excel in problem-solving by quickly identifying issues, analyzing root causes, and implementing innovative solutions to overcome obstacles and achieve optimal results.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

@@ -2,6 +2,7 @@ import Courses from "@/components/Courses";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
+import SoftSkills from "@/components/SoftSkills";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Grid />
         <RecentProjects />
         <Courses />
+        <SoftSkills />
       </div>
     </main>
     
