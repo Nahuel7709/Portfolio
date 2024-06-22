@@ -100,9 +100,47 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className=" relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
-                {item.quote}
-              </span>
+        
+
+          <span className={`relative z-20 text-sm md:text-lg leading-[1.6] font-normal`}>
+            {item.quote.split(/\b/).map((word, index) => {
+              // Expresión regular para identificar palabras clave y términos compuestos
+              const keywordRegex = /\b(Python|CSS|HTML|React|JavaScript|UADE)\b/i;
+
+              // Verificar si la palabra coincide con la expresión regular
+              if (word.match(keywordRegex)) {
+                // Definir las clases de Tailwind CSS basadas en la palabra
+                let className = '';
+
+                if (word === 'React' || word === 'UADE') {
+                  className = 'text-sky-400 font-bold'; // Azul claro para React y UADE
+                } else if (word === 'JavaScript') {
+                  className = 'text-yellow-200 font-bold'; // Amarillo para JavaScript
+                } else if (word === 'Python') {
+                  className = 'text-yellow-200 font-bold'; // Amarillo para Python
+                } else {
+                  className = ''; // Si no coincide con ninguna palabra clave, no aplicar clase especial
+                }
+
+                return (
+                  <span key={index} className={className}>
+                    {word}
+                  </span>
+                );
+              } else {
+                return (
+                  <span key={index}>{word}</span>
+                );
+              }
+            })}
+          </span>
+
+
+
+
+
+
+
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                   <div className="me-3">

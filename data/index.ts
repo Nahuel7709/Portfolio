@@ -72,32 +72,32 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Eat & Split",
+    des: "Developed with React and styled using CSS, aimed at simplifying the process of splitting bills.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Travel List",
+    des: "Allows users to add items they need to pack, mark items as packed, and keep track of what has been packed and what still needs to be packed.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Simon Game",
+    des: "The old and good Simon game made with HTML CSS and JS.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Wineline",
+    des: "E-commerce created at Digital House Fullstack Web course",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
@@ -106,6 +106,7 @@ export const projects = [
 
 export const testimonials = [
   {
+   
     quote:
       "This course covered JavaScript, SQL, React, Node.js, Express.js, HTML, CSS, and UX/UI Design. I learned to build dynamic web applications, create and query databases, design responsive interfaces, and apply UX/UI principles, gaining a solid foundation in both front-end and back-end development.",
     name: "Digital House",
@@ -113,6 +114,7 @@ export const testimonials = [
     year: "2022",
   },
   {
+    
     quote:
       "This course covered HTML, CSS, Bootstrap, JavaScript, React, Node.js, Express.js, EJS, REST APIs, SQL, PostgreSQL, Firebase, Sequelize, Git, GitHub Pages, Web3 development, blockchain, token contracts, and NFT logic. I learned to build web applications, design responsive interfaces, manage databases, deploy projects.",
     name:  "Dra. Angela Yu - Udemy",
@@ -120,6 +122,7 @@ export const testimonials = [
      year: "2024",
   },
   {
+    
     quote:
       "Expertise in React including hooks, functional components, Context API, Redux, MERN stack (MongoDB, Express.js, React, Node.js), routing, Bootstrap, JWT authentication, Google Sign-in, unit testing (Jest, React Testing Library), deployment (Heroku, Git, GitHub), and development tools (Redux DevTools, React DevTools).",
     name: "Fernando Herrera - Udemy",
@@ -127,6 +130,7 @@ export const testimonials = [
      year: "2023",
   },
   {
+    
     quote:
       "Covering React fundamentals, state management, hooks, performance optimization, advanced state with Redux and React Query, React Router, real-world appS, Supabase, Tailwind CSS and Styled Components, advanced React patterns, and Next.js for server-side rendering, dynamic content, and modern React hooks.",
       name: "Jonas Schmedtmann - Udemy",
@@ -134,6 +138,7 @@ export const testimonials = [
      year: "2024",
   },
   {
+    
     quote:
       "Gain practical experience in Python for real data science challenges, including programming for modeling, statistics, and storytelling. Use key libraries like Pandas, NumPy, Matplotlib, and Scikit-learn for basic machine learning tasks. Learn to evaluate model performance and apply Python in machine learning and AI contexts, laying a strong foundation for future Python studies.",
     name: "HarvardX",
@@ -141,6 +146,7 @@ export const testimonials = [
      year: "2024-Present",
   },
   {
+    
     quote:
       "The Bachelor's Degree in Computer Science from UADE prepares professionals to analyze and optimize the relationship between organizations and information technology. Graduates are equipped to manage IT effectively, develop competitive business strategies, and collaborate in interdisciplinary teams within public or private sectors.",
     name: "UADE",
