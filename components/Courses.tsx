@@ -7,9 +7,8 @@ const Courses = () => {
   return (
     <div className='py-20' id='projects'>
       <h1 className='heading'>
-      A selection of  
-        <span className='text-purple'> courses </span>
-      I have completed
+      Completed and Ongoing 
+        <span className='text-purple'> Education </span>
       </h1>
       <div className='flex flex-col items-center max-lg:mt-10'>
           <InfiniteMovingCards 

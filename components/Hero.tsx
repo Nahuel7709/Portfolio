@@ -24,16 +24,20 @@ const Hero = () => {
 
         <div className='flex justify-center relative my-20 z-10'>
             <div className='max-w-[89vw] md:max-w2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-                <h2 className='uppercase tacking-widest text-xs text-center text-blue-100 max-w-80 '>
-                    Dynamic Web Magic with Next.js
+                <h2 className='tacking-widest text-xs text-center text-blue-100 max-w-80 '>
+                    Buenos Aires, Argentina
                 </h2>
 
-                <TextGenerateEffect className='text-center text-[40px] md: text-5xl lg:text-6xl ' words="Building intuitive and beautiful Users experiences"/>
+                <TextGenerateEffect className='text-center text-[40px] md: text-5xl lg:text-6xl ' words="Nahuel Menichetti Front-End Developer"/>
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Hi I&apos;m Nahuel, Front-End Developer based in Argentina. 
+                    With practical
+                    experience in web development and a great ability
+                    to innovate and learn. I am looking for an
+                    opportunity as a developer to apply my skills and
+                    contribute to challenging projects.  
                 </p>
 
-                <a href="#about">
+                <a href="#projects">
                     <MagicButton 
                         title="Show my work"
                         icon={<FaLocationArrow />}

@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Courses", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -107,33 +107,45 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "This course covered JavaScript, SQL, React, Node.js, Express.js, HTML, CSS, and UX/UI Design. I learned to build dynamic web applications, create and query databases, design responsive interfaces, and apply UX/UI principles, gaining a solid foundation in both front-end and back-end development.",
+    name: "Digital House",
+    title: "PROGRAMACIÓN WEB FULL STACK",
+    year: "2022",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "This course covered HTML, CSS, Bootstrap, JavaScript, React, Node.js, Express.js, EJS, REST APIs, SQL, PostgreSQL, Firebase, Sequelize, Git, GitHub Pages, Web3 development, blockchain, token contracts, and NFT logic. I learned to build web applications, design responsive interfaces, manage databases, deploy projects.",
+    name:  "Dra. Angela Yu - Udemy",
+    title: "THE COMPLETE 2024 WEB DEVELOPMENT BOOTCAMP",
+     year: "2024",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Expertise in React including hooks, functional components, Context API, Redux, MERN stack (MongoDB, Express.js, React, Node.js), routing, Bootstrap, JWT authentication, Google Sign-in, unit testing (Jest, React Testing Library), deployment (Heroku, Git, GitHub), and development tools (Redux DevTools, React DevTools).",
+    name: "Fernando Herrera - Udemy",
+    title: "React de cero a experto",
+     year: "2023",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Covering React fundamentals, state management, hooks, performance optimization, advanced state with Redux and React Query, React Router, real-world appS, Supabase, Tailwind CSS and Styled Components, advanced React patterns, and Next.js for server-side rendering, dynamic content, and modern React hooks.",
+      name: "Jonas Schmedtmann - Udemy",
+      title: "MASTER MODERN REACT TO ADVANCED",
+     year: "2024",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Gain practical experience in Python for real data science challenges, including programming for modeling, statistics, and storytelling. Use key libraries like Pandas, NumPy, Matplotlib, and Scikit-learn for basic machine learning tasks. Learn to evaluate model performance and apply Python in machine learning and AI contexts, laying a strong foundation for future Python studies.",
+    name: "HarvardX",
+    title: "Introduction to Data Science with Python",
+     year: "2024-Present",
+  },
+  {
+    quote:
+      "The Bachelor's Degree in Computer Science from UADE prepares professionals to analyze and optimize the relationship between organizations and information technology. Graduates are equipped to manage IT effectively, develop competitive business strategies, and collaborate in interdisciplinary teams within public or private sectors.",
+    name: "UADE",
+    title: "Bachelor's degree in Computer Science",
+     year: "2022-Present",
   },
 ];
 
