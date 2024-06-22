@@ -3,6 +3,7 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
+import DownloadButton from './ui/DownloadButton'
 
 
 
@@ -37,14 +38,14 @@ const Hero = () => {
                     contribute to challenging projects.  
                 </p>
 
-                <a href="#projects">
-                    <MagicButton 
-                        title="Show my work"
-                        icon={<FaLocationArrow />}
-                        position='right'
-                    />
+
+        
+                <a href="/CV-Nahuel-Menichetti-EN.pdf" download="CV-Nahuel-Menichetti-EN.pdf">
+                    <DownloadButton />
                 </a>
-            </div>
+        
+
+        </div>
         </div>
     </div>
   )
