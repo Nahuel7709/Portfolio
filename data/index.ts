@@ -76,7 +76,7 @@ export const projects = [
     des: "Developed with React and styled using CSS, aimed at simplifying the process of splitting bills.",
     img: "/eat-split.jpg",
     iconLists: ["/re.svg", "/css.svg",],
-    link: "/ui.earth.com",
+    link: "https://nahuel7709.github.io/eat-and-split/",
   },
   {
     id: 2,
@@ -84,15 +84,15 @@ export const projects = [
     des: "Allows to add items you need to pack, items packed, see of what has been packed and what still needs to be packed.",
     img: "/vacation.jpg",
     iconLists: ["/re.svg", "/css.svg",],
-    link: "/ui.yoom.com",
+    link: "https://nahuel7709.github.io/travel-list/",
   },
   {
     id: 3,
     title: "Simon Game",
     des: "The old and good Simon game made with HTML CSS and JS.",
     img: "/simon_game.jpg",
-    iconLists: ["/js.svg", "/css.svg",],
-    link: "/ui.aiimg.com",
+    iconLists: ["/js.svg", "/css.svg", "/html.svg"],
+    link: "https://nahuel7709.github.io/Simon-Game/",
   },
   {
     id: 4,
