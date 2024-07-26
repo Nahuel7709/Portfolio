@@ -88,10 +88,10 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Eat & Split",
-    des: "Developed with React and styled using CSS, aimed at simplifying the process of splitting bills.",
-    img: "/eat-split.jpg",
-    iconLists: ["/re.svg", "/css.svg"],
+    title: "Journal App",
+    des: "App for writting notes and upload photos.",
+    img: "/journal1.jpg",
+    iconLists: ["/re.svg","firebase.svg","redux.svg", "/css.svg"],
     link: "https://nahuel7709.github.io/eat-and-split/",
   },
   {
