@@ -91,8 +91,8 @@ export const projects = [
     title: "Journal App",
     des: "App for writting notes and upload photos.",
     img: "/journal1.jpg",
-    iconLists: ["/re.svg","firebase.svg","redux.svg", "/css.svg"],
-    link: "https://nahuel7709.github.io/eat-and-split/",
+    iconLists: ["/re.svg", "firebase.svg", "redux.svg", "/css.svg"],
+    link: "https://journal-app-five.vercel.app",
   },
   {
     id: 4,
